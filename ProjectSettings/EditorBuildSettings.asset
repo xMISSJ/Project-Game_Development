@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/CardMenu.unity
+    guid: 50e231baf366b244a9661f9e710c4339
+  - enabled: 1
+    path: Assets/Scenes/Testing and features specific scenes/Menu_JL.unity
+    guid: db3cce86a056cae4fb519b2523687e56
+  - enabled: 1
+    path: Assets/Scenes/Testing and features specific scenes/Multiplayer_JK.unity
+    guid: 3dbb83f3159b2ea4aae84bb44fdf8aa9
+  - enabled: 0
+    path: 
+    guid: 2fbef01e883cf3240a51eb6d5435cbb3
+  - enabled: 0
+    path: Assets/Scenes/GameScenes/InBetweenRound_JL.unity
+    guid: 24ec670ff1da82044a24f43f41cc68ac
+  - enabled: 1
+    path: Assets/Scenes/Testing and features specific scenes/TitleScreen_JL.unity
+    guid: 9754278adda5ec24d9c4ed9658667ac3
+  - enabled: 0
+    path: Assets/Scenes/Testing and features specific scenes/Survivor_JL.unity
+    guid: 9b6b6ff962261554e8f3af2c566cbc0f
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Playtest.unity
+    guid: 305fbb03e4247ce4a87a25c43078b148
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/InbetweenRounds.unity
+    guid: aab12b25e55c1544cb4ab1572895dbc1
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Endscreen.unity
+    guid: 265f99f69e3e95942b11dbbfc890feb2
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Main Menu.unity
+    guid: c5fb8ca1b82bfc944961a349794bd0d3
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/EndMenu.unity
+    guid: 59bf1de1f9f881346985e357ca22aa5c

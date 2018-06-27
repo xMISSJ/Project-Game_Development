@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1193949637610954}
+  m_IsPrefabParent: 1
+--- !u!1 &1193949637610954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4899855487309340}
+  - component: {fileID: 114613906916076606}
+  - component: {fileID: 114997455482775736}
+  - component: {fileID: 114700257110415132}
+  - component: {fileID: 114379628069041470}
+  m_Layer: 0
+  m_Name: GameManagerObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4899855487309340
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1193949637610954}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 28.333313, y: 410.41937, z: 102.92972}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114379628069041470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1193949637610954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42be0ec1c6f9dd4ba9f95f5f59498ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114613906916076606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1193949637610954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf41420acd6c9bf429ae946f21f1660e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amountOfStates: 6
+  possibleStates:
+  - {fileID: 114997455482775736}
+  - {fileID: 114997455482775736}
+  - {fileID: 114379628069041470}
+  currentState: {fileID: 114997455482775736}
+  possibleStateStrings:
+  - CardMenu
+  - CardMenu
+  - Playtest
+  runStart: 1
+  scoreCounter: {fileID: 0}
+  firstRound: 1
+  screenActive: 00000000
+  playerLinks: 00000000000000000000000000000000
+  playerColors:
+  - {r: 0.003921569, g: 0.003921569, b: 0.003921569, a: 0.003921569}
+  - {r: 0.5588235, g: 0.5588235, b: 1, a: 1}
+  - {r: 1, g: 0.3897059, b: 0.3897059, a: 1}
+  - {r: 0.49264705, g: 1, b: 0.49264705, a: 1}
+  - {r: 1, g: 0.96250296, b: 0.5294118, a: 1}
+  amountOfPlayer: 0
+  playersAlive: 0
+  temporaryRanking: 
+  playersHolder: []
+  positionHolder:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playerPrefab: {fileID: 1482034412812306, guid: 7b7c5092864f9d048911996d2879081b,
+    type: 2}
+  randomWeaponAssigner: {fileID: 0}
+  readyPlayers: 0
+  debugprinting: 0
+--- !u!114 &114700257110415132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1193949637610954}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62f2f488af9ecd4dacca9d9d44ccea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UICoin: {fileID: 1237792820948102, guid: b5d1b5a721fbd6b43ad4bb21336f23e6, type: 2}
+  UIhealthBar: {fileID: 1515075486718038, guid: 6b7cc243ee3abd2449cbd82703951989,
+    type: 2}
+  playerDataUI: {fileID: 1749714909907494, guid: 0940d9900952f1944bbb5f45e94d5b5d,
+    type: 2}
+  showingPlayerHealth: 
+--- !u!114 &114997455482775736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1193949637610954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ebd5da038fe724396b583e98ad8746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startScreen:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  amountOfCards: 3
+  playerActive: 0000000000
+  playersRequiredToStart: 2
+  textBanner: {fileID: 0}
+  defaultPrefabs:
+  - {fileID: 1333494613485312, guid: bed8733348bf64d4aa28d36b7349cf31, type: 2}
+  - {fileID: 1545239448897914, guid: 9e52dc31321216a4086d4813fb931220, type: 2}
+  - {fileID: 1827004640336284, guid: 2efa01fcbea6e6046bf20214501d3830, type: 2}
+  - {fileID: 1827004640336284, guid: 2efa01fcbea6e6046bf20214501d3830, type: 2}
+  - {fileID: 1352729703171378, guid: a3161fce566c3064ea37120863055e3e, type: 2}
+  playable: {fileID: 0}
+  menu: {fileID: 0}

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 298fec0c8e861e846bc68b7f2d6282cf
+timeCreated: 1516116659
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - head: {instanceID: 0}
+  - rArm: {instanceID: 0}
+  - lArm: {instanceID: 0}
+  - legs: {instanceID: 0}
+  - deathEffect: {instanceID: 0}
+  - playerStats: {instanceID: 0}
+  - hit: {fileID: 8300000, guid: c758052b9a6674d46905ffe0cbb2dd54, type: 3}
+  - f: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
